@@ -1,0 +1,42 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Verificação de Faixa Etária
+
+Desenvolva um script em Python que, com base na idade fornecida, determine a faixa etária à qual uma pessoa pertence.
+
+Requisitos:
+
+O script deve solicitar ao usuário a sua idade.
+O script deve classificar a idade em uma das seguintes faixas etárias:
+Criança: 0 a 12 anos
+Adolescente: 13 a 17 anos
+Adulto: 18 a 64 anos
+Idoso: 65 anos ou mais
+O resultado deve ser exibido ao usuário, informando a faixa etária correspondente.
+Critérios de Avaliação:
+
+Correção da classificação de faixa etária.
+Exibição clara e precisa do resultado.
+Estrutura e clareza do código.
